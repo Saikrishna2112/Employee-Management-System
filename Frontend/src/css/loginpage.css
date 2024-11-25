@@ -1,0 +1,30 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional background color */
+  text-align: center;
+  flex-direction: column; /* Ensure content stacks vertically */
+}
+
+h2 {
+  color: #333;
+  background-color: yellow;
+  margin-bottom: 20px; /* Add spacing below the header */
+}
+
+input[type="text"], input[type="password"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #9ACD32; /* Light Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

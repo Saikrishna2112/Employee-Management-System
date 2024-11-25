@@ -1,0 +1,66 @@
+/* Add your desired CSS styles here to match the image */
+
+/* Example styling for the form and its elements */
+.employee-create {
+  text-align: center;
+  padding: 20px;
+}
+
+.employee-create form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.employee-create label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.employee-create input[type="text"],
+.employee-create input[type="email"],
+.employee-create input[type="tel"],
+.employee-create input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-create select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-create button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

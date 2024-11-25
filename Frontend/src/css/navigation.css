@@ -1,0 +1,89 @@
+/* General Styles for Admin Navigation Panel */
+.admin-panel {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: yellow; /* Matches your screenshot's style */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Navigation Bar Styling */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Adds a hover effect */
+}
+
+/* User Info Styling */
+.user-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.user-info span {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #ff4d4d; /* Red button */
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.logout-button:hover {
+  background-color: #e63939; /* Darker red on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+
+  .user-info {
+    margin-top: 10px;
+  }
+}
